@@ -38,6 +38,16 @@ O modelo de entidade e relacionamento foi desenvolvido considerando as seguintes
 <h6> Figura 1: Criação do Modelo lógico </h6>
 <img src="./img/imagem1.png">
 
+### Estrutura do banco de dados
+
+- `Pacientes`
+- `Unidade de Saude`
+- `Produtos Medicos`
+- `Veiculos`
+- `Pedidos Transporte`
+- `Pedidos Entrega`
+- `Rotas Transporte`  
+
 
 ## Configuração do Banco de Dados no AWS RDS
 
@@ -64,15 +74,6 @@ O modelo de entidade e relacionamento foi desenvolvido considerando as seguintes
 <h6> Figura 7: Conexão com o MySQL Workbench </h6>
 <img src="./img/imagem7.png">
 
-### Estrutura do banco de dados
-
-- `Pacientsz`
-- `UntDeSaude`
-- `ProdsMedicoss`
-- `Veicul`
-- `PredsTransporte`
-- `PedisEntrega`
-- `RotaTransp`  
 
 Após a conexão bem sucedida e a criação das tabelas, insere-se dados fictícios para a continuação do exercício:
 
