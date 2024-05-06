@@ -39,17 +39,6 @@ O modelo de entidade e relacionamento foi desenvolvido considerando as seguintes
 <img src="./img/imagem1.png">
 
 
-### Estrutura do banco de dados
-
-- `Pacientsz`
-- `UntDeSaude`
-- `ProdsMedicoss`
-- `Veicul`
-- `PredsTransporte`
-- `PedisEntrega`
-- `RotaTransp`  
-
-
 ## Configuração do Banco de Dados no AWS RDS
 
 ### 1. Criação da Instância de Banco de Dados
@@ -75,6 +64,16 @@ O modelo de entidade e relacionamento foi desenvolvido considerando as seguintes
 <h6> Figura 7: Conexão com o MySQL Workbench </h6>
 <img src="./img/imagem7.png">
 
+### Estrutura do banco de dados
+
+- `Pacientsz`
+- `UntDeSaude`
+- `ProdsMedicoss`
+- `Veicul`
+- `PredsTransporte`
+- `PedisEntrega`
+- `RotaTransp`  
+
 Após a conexão bem sucedida e a criação das tabelas, insere-se dados fictícios para a continuação do exercício:
 
 <h6> Figura 8: Inserção de dados fictícios </h6>
@@ -82,7 +81,7 @@ Após a conexão bem sucedida e a criação das tabelas, insere-se dados fictíc
 
 Por fim, calcula-se o número médio de pacientes transportados por veículo por mês seguindo este exemplo abaixo
 
-<h6> Figura 9: Inserção de dados fictícios </h6>
+<h6> Figura 9: Calculo da média </h6>
 <img src="./img/imagem9.png">
 
 
